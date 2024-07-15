@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Monster : MonoBehaviour, IDamageable
+public class Monster : MonoBehaviour//, IDamageable
 {
 	[SerializeField] int hp;
 
