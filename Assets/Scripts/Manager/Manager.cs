@@ -8,7 +8,9 @@ public class Manager : MonoBehaviour
     public static Manager Inst { get { return instance; } }
 
     [SerializeField] SceneManger sceneManger;
+	[SerializeField] DataManager dataManager;
     public static SceneManger Scene{ get { return instance.sceneManger; } }
+	public static DataManager Data{ get { return instance.dataManager; } }
 
 	private void Awake()
 	{
